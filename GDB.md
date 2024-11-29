@@ -294,4 +294,12 @@ Display the current layout configuration.
 Switch to a single-window view and remove any active layout.
 
     (gdb) layout none
-    
+
+Redraw the TUI (Text User Interface): You can redraw the entire TUI window, including the source code, registers, and other views, with the layout command or the tui refresh command:
+
+    (gdb) tui refresh
+
+    (gdb) refresh
+
+This command redraws the TUI layout, which can be useful if the screen gets corrupted or you need to refresh the view manually.
+
