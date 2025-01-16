@@ -5,4 +5,4 @@ It is possible that here will be some usefull information
 2. [Valgrind with GDB (GNU Debugger)](Valgrind%20%26%20GBD.md)
 3. Memmory errors detection with ASan (Sanitize)
 4. LLDB
-5. strace -f -e trace=desc ./pipex in "greb a" "wc -l" out
+5. STRACE
